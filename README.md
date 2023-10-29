@@ -26,3 +26,4 @@ jerahmie@penguin:~$ arduino-cli compile -b arduino:renesas_uno:minima eyes_motor
 jerahmie@penguin~:$ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:renesas_uno:minima eyes_motor_zero.ino
 ```
 
+ARDUINO_LIBRARY_ENABLE_UNSAFE_INSTALL=true arduino-cli lib install --git-url https://github.com/NachtRaveVL/PCA9685-Arduino.git
